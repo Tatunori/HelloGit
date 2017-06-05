@@ -9,7 +9,7 @@ def bubblesort(l):
 
 if __name__ == '__main__':
     from random import shuffle
-    l = range(15)
+    l = range(20)
     lcopy = l[:]
     shuffle(l)
     print('Unsorted')
